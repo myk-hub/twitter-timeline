@@ -9,6 +9,7 @@ const TweetList = props => {
           <Tweet
             author={tweet.user.name}
             authorScreenName={tweet.user.screen_name}
+            avatar={tweet.user.profile_image_url}
             key={tweet.id}
             tweet={tweet.text}
             date={tweet.created_at.slice(0, 10)}

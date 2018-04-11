@@ -23,7 +23,6 @@ class TweetSearchBox extends React.Component {
       .get(`http://localhost:3000${this.props.url}/${username}`)
       .then((tweets) => {
         this.setState({ tweets: tweets.data });
-        console.log(tweets + 'dsa');
       })
       .catch((err) => {
         console.log('Error in grabbing tweets for: ', username);
