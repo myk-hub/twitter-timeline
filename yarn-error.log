@@ -1,5 +1,5 @@
 Arguments: 
-  /home/myk/.nvm/versions/node/v8.10.0/bin/node /usr/share/yarn/bin/yarn.js run start
+  /home/myk/.nvm/versions/node/v8.10.0/bin/node /usr/share/yarn/bin/yarn.js start run
 
 PATH: 
   /home/myk/.nvm/versions/node/v8.10.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
@@ -5423,7 +5423,7 @@ Trace:
   Error: Command failed.
   Exit code: 1
   Command: sh
-  Arguments: -c node server.js
+  Arguments: -c node server.js run
   Directory: /home/myk/keen/react-twitter-emb
   Output:
   

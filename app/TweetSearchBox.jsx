@@ -20,7 +20,7 @@ class TweetSearchBox extends React.Component {
 
   handleSearchSubmit(username) {
     axios
-      .get(`http://localhost:3000${this.props.url}/${username}`)
+      .get(`https://twitter-timeline-react.herokuapp.com${this.props.url}/${username}`)
       .then((tweets) => {
         this.setState({ tweets: tweets.data });
       })
